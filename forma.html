@@ -46,8 +46,23 @@
   </style>
 </head>
 <body>
-
-  <form>
+ <form>
     <h2>Форма регистрации</h2>
 	  <label for="firstName">Имя</label>
       <input type="text" id="firstName" name="firstName" required>
+	  <label for="country">Страна</label>
+    <input type="text" id="country" name="country">
+
+    <label for="city">Город</label>
+    <input type="text" id="city" name="city">
+
+    <label>
+      <input type="checkbox" name="terms" required>
+      Я принимаю <a href="#">условия использования</a>
+    </label>
+
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+
+</body>
+</html>
